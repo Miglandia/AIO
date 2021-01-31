@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/ic_school"
+        app:showAsAction="never"
+        android:title="Обучение" />
+
+    <item
+        android:id="@+id/navigation_games"
+        android:icon="@drawable/ic_category"
+        android:title="Игры"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/navigation_challenges"
+        android:icon="@drawable/ic_medal"
+        android:title="Соревнования"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Провиль"
+        app:showAsAction="never"/>
+</menu>

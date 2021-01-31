@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="ApplicationTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ApplicationTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AIO.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AIO.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.TabLayout.Blue" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">#2787F5</item>
+        <item name="tabTextColor">#4D2787F5</item>
+    </style>
+    <style name="AppTheme.TabLayout.Orange" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">#FFA800</item>
+        <item name="tabTextColor">#4DFFA800</item>
+    </style>
+
+    <style name="AppTheme.TabLayout.Green" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">#008000</item>
+        <item name="tabTextColor">#4D008000</item>
+    </style>
+    <style name="AppTheme.TabLayout.Violet" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">#461656</item>
+        <item name="tabTextColor">#4D461656</item>
+    </style>
+    <style name="AppTheme.TabLayout.Red" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">#DD5044</item>
+        <item name="tabTextColor">#30DD5044</item>
+    </style>
+</resources>

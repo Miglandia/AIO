@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.education.aio.main.ui.fragments.EducationFragment"
+        android:label="Уроки"
+        tools:layout="@layout/fragment_education" />
+
+    <fragment
+        android:id="@+id/navigation_games"
+        android:name="com.education.aio.main.ui.fragments.GamesFragment"
+        android:label="Игры"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_challenges"
+        android:name="com.education.aio.main.ui.fragments.ChallengesFragment"
+        android:label="Сорвенования"
+        tools:layout="@layout/fragment_challenges" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.education.aio.main.ui.fragments.ProfileFragment"
+        android:label="Сорвенования"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
